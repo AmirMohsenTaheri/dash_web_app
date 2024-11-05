@@ -30,14 +30,6 @@ Welcome to the Data Visualization and Analysis Tool! This web application allows
 
 To run this application locally, you will need to have Python installed. You can clone this repository and install the necessary packages using pip:
 
-
-
-```bash
-git clone https://github.com/AmirMohsenTaheri/Data-Visualization-Tool.git
-cd Data-Visualization-Tool
-pip install -r requirements.txt
-```
-
 ## Requirements:
 1. [Python 3.x](https://www.python.org/)
 2. [Flask](https://flask.palletsprojects.com/en/stable/)
