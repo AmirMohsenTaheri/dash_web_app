@@ -1,0 +1,209 @@
+/* All about page */
+html{
+    color: #040316;
+    background-color: #fbfbfe;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* upload section */
+#Row_update{
+    flex-direction:column;
+    animation: slideUp 0.6s ease-out;
+    animation-fill-mode: both;
+    margin: 30px 20px;
+    padding: 20px;
+}
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+  }
+.uplode-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 90vw;
+    border-Width: 1px;
+    border-style: groove;
+    border-Radius: 5px;
+    text-Align: center;
+    margin: 20px;
+    box-shadow: 0 0 5px 5px rgb(124, 126, 127);
+}
+#file-upload button{
+    background-color: #f1f1fe;
+    border: 0px;
+    border-radius: 2px;
+    margin-left: 2px;
+    padding: 6px 10px;
+}
+
+/* info section */
+#Row_info{
+    display: block;
+    padding-left: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+#Row_info h4{
+    margin: 10px 10px;
+
+}
+
+
+/* main selection */
+#Row_main{
+    padding: 10px;
+    margin: 20px 0;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+/* selection part */
+#Row_select{
+    width: 100%;
+}
+#Row_select .col{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.dash-dropdown{
+    width: 80%;
+    margin: 10px 0 10px 0;
+}
+
+/*  chart and tabel part */
+#Row-chart-tabel{
+    width: 100%;
+}
+#col-tabel, #col-chart{
+    width: 50%;
+}
+#Row-chart{
+    align-items: start;
+}
+#chart{
+    width: 80%;
+}
+#option{
+    width: 20%;
+}
+
+/* استایل برای کل جدول */
+#data-table {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* استایل برای سلول‌ها */
+#data-table .dash-cell {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px;
+    /* color: #555; */
+}
+
+/* استایل برای هدر */
+#data-table .dash-header {
+    background-color: #d9ecf9;
+    color: #222831;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+/* استايل براي فيلتر */
+#data-table .dash-filter{
+    background-color: #f1f1fe;
+}
+
+/* تغییر رنگ پس‌زمینه ردیف‌های انتخاب شده */
+#data-table .cell--selected {
+    background-color: #5852ff !important;
+    color: #fbfbfe;
+    border-color: #2f27ce !important;
+}
+
+.dash-spreadsheet td div{
+    line-height: 15px !important; 
+    max-height: 10vh !important; 
+    min-height: 5vh !important; 
+    height: 10vh !important; 
+    display: block !important; 
+    overflow-y: scroll !important;
+}
+.dash-table-tooltip{
+    background-color: #c4c4fa !important;
+    max-width: fit-content !important;
+}
+
+#option label{
+    margin: 0 0 5px 0;
+    padding: 3px;
+    border: 2px solid;
+    border-radius: 6px;
+    border-color: #d9ecf9;
+    background-color: #d9ecf9;
+}
+
+#col-chart{
+    border-left: 2px solid;
+}
+
+#color-picker{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #d9ecf9;
+    border-radius: 6px;
+    background-color: #d9ecf9;
+}
+
+#color-picker label{
+    display: flex !important;
+    flex-direction: row-reverse;
+    margin: 1px;
+}
+#row_range_slider{
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #d9ecf9;
+    border-radius: 6px;
+    background-color: #d9ecf9;
+}
+#range-slider{
+    display: flex;
+    width: 100%;
+}
+.dash-input{
+    border-radius: 6px;
+    border: 1px solid
+}
+
+#row_color_column{
+    margin: 0 15px;
+    padding: 10px;
+    border: 2px solid #d9ecf9;
+    background-color: #d9ecf9;
+    border-radius: 6px;
+}
+#row_bar_mode{
+    margin: 0 15px;
+    padding: 10px;
+    border: 2px solid #d9ecf9;
+    background-color: #d9ecf9;
+    border-radius: 6px;
+}
+#row_color_plot{
+    width: 10vw !important;
+}
